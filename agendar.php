@@ -77,7 +77,7 @@
     <button type="submit" class="btn btn-primary">Enviar</button>
   </div>
   <div class="col-8">
-    <a href="/prototipo/" class="btn btn-danger">Regresar</a>
+    <a href="/Help_Clinic_System/" class="btn btn-danger">Regresar</a>
   </div>
 </form>
 
