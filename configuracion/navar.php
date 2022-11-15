@@ -219,13 +219,13 @@
             <ul class="nav nav-treeview">
               <!-- Valida si tiene permiso para consultar la pantalla del CRUD Bienvenida -->
              <li class="nav-item">
-                          <a href="../../vistas/catalogo/vista_bienvenida.php" class="nav-link">
+                          <a href="/Help_Clinic_System/vistas/citas/administrar_citas.php" class="nav-link">
                             <p>Administrar citas</p>
                           </a>
                         </li>
              <!-- Valida si tiene permiso para consultar la pantalla del CRUD PORTAFOLIO -->
         <li class="nav-item">
-                          <a href="../../vistas/catalogo/vista_portafolio.php" class="nav-link">
+                          <a href="/Help_Clinic_System/vistas/citas/especialidades.php" class="nav-link">
                             <p>Especialidades</p>
                           </a>
                         </li>
