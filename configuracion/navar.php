@@ -192,7 +192,7 @@
                         </li>
              <!-- Valida si tiene permiso para consultar la pantalla Clientes -->
              <li class="nav-item">
-                          <a href="#" class="nav-link">
+                          <a href="/Help_Clinic_System/vistas/personas/medicos.php" class="nav-link">
                             <p>Medicos</p>
                           </a>
                         </li>
