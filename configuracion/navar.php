@@ -231,7 +231,7 @@
                         </li>
               <!-- Valida si tiene permiso para consultar la pantalla del CRUD CATALOGOS -->
             <li class="nav-item">
-                  <a href="../../vistas/catalogo/vista_catalagos.php" class="nav-link">
+                  <a href="/Help_Clinic_System/vistas/citas/horarios.php" class="nav-link">
                     <p>Horarios</p>
                   </a>
                 </li>            

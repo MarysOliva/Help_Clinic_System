@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Administrar citas</title>
+  <title>Horarios</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
@@ -22,7 +22,7 @@
             <h1></h1>
             <!-- Inicio de modal de agregar -->
       <div class="container mt-3">
-        <h3>Administrar citas</h3>          
+        <h3>Horarios</h3>          
       </div>
         
 
@@ -32,7 +32,7 @@
             <div class="modal-content">
                 <!-- Encabezado del modal -->
                 <div class="modal-header">
-                    <h4 class="modal-title">Nuevo cita</h4>
+                    <h4 class="modal-title">Nuevo Horario</h4>
                     <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
                 </div>
                 <!-- Fin Encabezado del modal -->
@@ -41,51 +41,20 @@
                 <form action="" method="post">
                 <div class="modal-body">
                 
-                <label for="">Paciente:</label>
-                    <select name="" class="form-control"  id="">
-                      <option value="">Seleccione un paciente</option>
-                      <option value="">DAVID</option>
-                  
-                    </select>
+                    <label for="">Fecha:</label>
+                    <input value=""  type="text"  class="form-control" name="sector_comercial"  required value="" placeholder="" id="txtsectorcomercial" autocomplete = "off" onkeypress="return soloLetras(event);" minlength="4" maxlength="50" onkeyup="mayus(this);" >
                     <br>
-                    <label for="">DNI paciente:</label>
-                    <input value="" readonly type="text" class="form-control" name="" id="">
+                    <label for="">Hora Inicial</label>
+                    <input value=""  type="text" class="form-control" name="" id="">
                     <br>
-                    <label for="">Medico:</label>
-                    <select name="" class="form-control"  id="">
-                      <option value="">Seleccione un medico</option>
-                      <option value="">MARYS</option>
-                  
-                    </select>
-                    <br>
-                     <label for="">Especialidad:</label>
-                    <select name="" class="form-control"  id="">
-                      <option value="">Seleccione especialidad</option>
-                      <option value="">Cardiología</option>
-                      <option value="">Dermatología</option>
-                    </select>
+                    <label for="">Hora Final</label>
+                    <input value=""  type="text" class="form-control" name="" id="">
                     <br>
                      <label for="">Estado:</label>
                     <select name="" class="form-control"  id="">
                       <option value="">Seleccione un estado</option>
-                      <option value="">COMPLETADA</option>
-                      <option value="">PENDIENTE</option>
-                    </select>
-                    <br>
-                    <br>
-                     <label for="">Horario:</label>
-                    <select name="" class="form-control"  id="">
-                      <option value="">Seleccione un horario</option>
-                      <option value="">7:00AM-8:00AM</option>
+                      <option value="">ACTIVO</option>
                       <option value="">INACTIVO</option>
-                    </select>
-                    <br>
-                    <br>
-                     <label for="">Fecha:</label>
-                    <select name="" class="form-control"  id="">
-                      <option value="">Seleccione una fecha</option>
-                      <option value="">7:00AM-8:00AM</option>
-                   
                     </select>
                     <br>
                 </div>
@@ -128,7 +97,7 @@
               <form id="form" action="" method="post">
                     <div class="btn-group">
                     <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">
-                       Nuevo cita
+                       Nueva Horario
                     </button>
               <!-- <button type="submit"  name="accion" value="reporte_pdf" class="btn btn-secondary buttons-pdf buttons-html5"  onclick="return confirm('¿Quieres generar reporte de Proveedores?')" onclick="textToPdf()"><span>Reporte PDF</span></button> -->
 	               </div>
@@ -142,15 +111,10 @@
                   <thead>
                   <tr>
                       <th class="desaparecerTemporalmente">Acciones</th>
-                      <th class="desaparecerTemporalmente1" >ID</th>
-                      <th class="desaparecerTemporalmente1">Paciente</th>
-                      <th class="desaparecerTemporalmente1">DNI paciente</th>
-                      <th class="desaparecerTemporalmente1">Medico</th>
-                      <!-- <th class="desaparecerTemporalmente1">DNI Medico</th> -->
-                      <th class="desaparecerTemporalmente1">Especialidad</th>
+                      <th >ID</th>
+                      <th>Fechas</th>
+                      <th>Horas</th>
                       <th>Estado</th>
-                      <th>Horario</th>
-                      <th>Fecha</th>
                     </tr>
                   </thead>
                   <tbody>
@@ -171,67 +135,30 @@
 
                                 <!-- Encabezado del modal -->
                                 <div class="modal-header">
-                                  <h4 class="modal-title">Editar cita</h4>
+                                  <h4 class="modal-title">Editar Horario</h4>
                                   <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
                                 </div>
                                 <!-- Fin Encabezado del modal -->
 
-
-                            <!-- Cuerpo del modal Modal -->
-                <form action="" method="post">
+  <!-- Cuerpo del modal Modal -->
+  <form action="" method="post">
                 <div class="modal-body">
                 
-                <label for="">Paciente:</label>
-                    <select name="" class="form-control"  id="">
-                    <option value="">DAVID</option>
-                      <option value="">Seleccione un paciente</option>
-                     
-                  
-                    </select>
+                    <label for="">Fecha:</label>
+                    <input value="15/11/2022"  type="text"  class="form-control" name="sector_comercial"  required value="" placeholder="" id="txtsectorcomercial" autocomplete = "off" onkeypress="return soloLetras(event);" minlength="4" maxlength="50" onkeyup="mayus(this);" >
                     <br>
-                    <label for="">DNI paciente:</label>
-                    <input value="08010000222772"  type="text" readonly class="form-control" name="" id="">
+                    <label for="">Hora Inicial</label>
+                    <input value="7:00am"  type="text" class="form-control" name="" id="">
                     <br>
-                    <label for="">Medico:</label>
-                    <select name="" class="form-control"  id="">
-                    <option value="">MARYS</option>
-                      <option value="">Seleccione un medico</option>
-                     
-                  
-                    </select>
-                    <br>
-                     <label for="">Especialidad:</label>
-                    <select name="" class="form-control"  id="">
-                    <option value="">CARDIOLOGÍA</option>
-                      <option value="">Seleccione especialidad</option>
-                      
-                      <option value="">Dermatología</option>
-                    </select>
+                    <label for="">Hora Final</label>
+                    <input value="8:00am"  type="text" class="form-control" name="" id="">
                     <br>
                      <label for="">Estado:</label>
-                     <select name="" class="form-control"  id="">
-                     <option value="">COMPLETADA</option>
+                    <select name="" class="form-control"  id="">
+                    <option value="">ACTIVO</option>
                       <option value="">Seleccione un estado</option>
-                     
-                      <option value="">PENDIENTE</option>
-                    </select>
-                    <br>
-                    <br>
-                     <label for="">Horario:</label>
-                    <select name="" class="form-control"  id="">
-                    <option value="">7:00AM-8:00AM</option>
-                      <option value="">Seleccione un horario</option>
                       
-                     
-                    </select>
-                    <br>
-                    <br>
-                     <label for="">Seleccione la fecha:</label>
-                    <select name="" class="form-control"  id="">
-                    <option value="">15/11/2022</option>
-                      <option value="">Seleccione una fecha</option>
-                      
-                      
+                      <option value="">INACTIVO</option>
                     </select>
                     <br>
                 </div>
@@ -261,14 +188,10 @@
                          
                     </td>
                                          <td class="desaparecerTemporalmente1">1</td>
-                                         <td class="desaparecerTemporalmente1">DAVID</td>
-                                         <td class="desaparecerTemporalmente1">08010000222772</td>
-                                         <td class="desaparecerTemporalmente1">MARYS</td>
-                                         <!-- <td class="desaparecerTemporalmente1">76543245454332</td> -->
-                                         <td class="desaparecerTemporalmente1">CARDIOLOGÍA</td>
-                                         <td class="desaparecerTemporalmente1">COMPLETADA</td>
-                                         <td class="desaparecerTemporalmente1">7:00AM-8:00AM</td>
-                                         <td>15/11/2022</td>
+                                         <td class="desaparecerTemporalmente1">15/11/2022</td>
+                                         <td class="desaparecerTemporalmente1">7:00am-8:00am</td>
+                                         <td class="desaparecerTemporalmente1">ACTIVO</td>
+                                       
                                         </tr>
                                    
                     
