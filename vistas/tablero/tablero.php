@@ -42,7 +42,7 @@
           <div class="icon">
             <i class="far fa-clipboard"> </i> 
           </div>
-            <a href="#" class="small-box-footer">Más información <i class="fas fa-arrow-circle-right"></i></a>
+            <a href="/Help_Clinic_System/vistas/personas/pacientes.php" class="small-box-footer">Más información <i class="fas fa-arrow-circle-right"></i></a>
       </div>
   </div>
  
@@ -53,12 +53,12 @@
             <div class="small-box bg-success">
                 <div class="inner">
                   <h3>4</h3>
-                  <p>Doctores</p>
+                  <p>Medicos</p>
                 </div>
                 <div class="icon">
                   <i class="fas fa-envelope-open-text"></i>
                 </div>
-                <a href="http://localhost/SEACCO/vistas/proyectos/vista_proyectos.php" class="small-box-footer">Más información<i class="fas fa-arrow-circle-right"></i></a>
+                <a href="/Help_Clinic_System/vistas/personas/medicos.php" class="small-box-footer">Más información<i class="fas fa-arrow-circle-right"></i></a>
               </div>
             </div>
             
@@ -74,7 +74,7 @@
       <div class="icon">
         <i class="fa fa-users"> </i> 
       </div>
-        <a href="http://localhost/SEACCO/vistas/personas/vista_administradores.php" class="small-box-footer">Más información <i class="fas fa-arrow-circle-right"></i></a>
+        <a href="/Help_Clinic_System/vistas/citas/administrar_citas.php" class="small-box-footer">Más información <i class="fas fa-arrow-circle-right"></i></a>
   </div>
 </div>
 
@@ -91,7 +91,7 @@
                 <div class="icon">
                   <i class="fas fa-share-alt"></i>
                 </div>
-                <a href="#" class="small-box-footer">Más información<i class="fas fa-arrow-circle-right"></i></a>
+                <a href="/Help_Clinic_System/vistas/citas/especialidades.php" class="small-box-footer">Más información<i class="fas fa-arrow-circle-right"></i></a>
               </div>
             </div>
            

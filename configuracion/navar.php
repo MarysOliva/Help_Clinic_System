@@ -88,11 +88,11 @@
                 <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right">
                         
                 <div class="dropdown-divider"></div>
-                <a href="#" class="dropdown-item">
-                    <i class="fa fa-user"></i> Perfil (<?php $usuario = $_SESSION; echo $usuario['usuario']; ?>)
+                <a href="/Help_Clinic_System/vistas/tablero/perfil.php" class="dropdown-item">
+                    <i class="fa fa-user"></i> Perfil (DAVIDS)
                 </a>
                 <div class="dropdown-divider"></div>
-                <a href="../../seguridad/cerrar_sesion.php" class="dropdown-item">
+                <a href="/Help_Clinic_System/login.php" class="dropdown-item">
                     <i class="fas fa-file mr-2"></i> Salir
                 </a>         
         </li>
@@ -198,7 +198,7 @@
                         </li>
              <!-- Valida si tiene permiso para consultar la pantalla PROVEEDORES -->
              <li class="nav-item">
-                          <a href="#" class="nav-link">
+                          <a href="/Help_Clinic_System/vistas/personas/pacientes.php" class="nav-link">
                             <p>Pacientes</p>
                           </a>
                         </li>        
@@ -252,29 +252,34 @@
             <ul class="nav nav-treeview">
               <!-- Valida si tiene permiso para consultar la pantalla del CRUD Bienvenida -->
              <li class="nav-item">
-                          <a href="../../vistas/catalogo/vista_bienvenida.php" class="nav-link">
+                          <a href="/Help_Clinic_System/vistas/seguridad/roles.php" class="nav-link">
                             <p>Roles</p>
+                          </a>
+                        </li>
+                        <li class="nav-item">
+                          <a href="/Help_Clinic_System/vistas/seguridad/roles.php" class="nav-link">
+                            <p>Objetos</p>
                           </a>
                         </li>
              <!-- Valida si tiene permiso para consultar la pantalla del CRUD PORTAFOLIO -->
         <li class="nav-item">
-                          <a href="../../vistas/catalogo/vista_portafolio.php" class="nav-link">
+                          <a href="/Help_Clinic_System/vistas/seguridad/permisos.php" class="nav-link">
                             <p>Permisos</p>
                           </a>
                         </li>
               <!-- Valida si tiene permiso para consultar la pantalla del CRUD CATALOGOS -->
             <li class="nav-item">
-                  <a href="../../vistas/catalogo/vista_catalagos.php" class="nav-link">
+                  <a href="/Help_Clinic_System/vistas/seguridad/parametros.php" class="nav-link">
                     <p>Parametros</p>
                   </a>
                 </li>  
                 <li class="nav-item">
-                  <a href="../../vistas/catalogo/vista_catalagos.php" class="nav-link">
+                  <a href="/Help_Clinic_System/vistas/seguridad/backup.php" class="nav-link">
                     <p>Backup</p>
                   </a>
                 </li>   
                 <li class="nav-item">
-                  <a href="../../vistas/catalogo/vista_catalagos.php" class="nav-link">
+                  <a href="/Help_Clinic_System/vistas/seguridad/bitacora.php" class="nav-link">
                     <p>Bitacora</p>
                   </a>
                 </li>          

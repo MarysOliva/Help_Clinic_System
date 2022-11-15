@@ -48,29 +48,18 @@
                     <label for="">Pantalla:</label>
                     <input type="text" onkeyup="un_espacio(this);" class="form-control" name="sector_comercial"  value="" required value="" placeholder="" id="txtsectorcomercial" autocomplete = "off" onkeypress="return soloLetras(event);" minlength="4" maxlength="50" onkeyup="mayus(this);" >
                     <br>
+                    <label for="">Permisos:</label><br>
+                    <input type="checkbox" name="" id="">
                     <label for="">Insertar:</label>
-                    <select name="" class="form-control"  id="">
-                      <option value="">Seleccionar permiso</option>
-                      <option value="">INSERTAR</option>
-                    </select>
-                    
+                   <br>
+                    <input type="checkbox" name="" id="">
                     <label for="">Editar:</label>
-                    <select name="" class="form-control"  id="">
-                      <option value="">Seleccionar permiso</option>
-                      <option value="">EDITAR</option>
-                    </select>
-
+                   <br>
+                    <input type="checkbox" name="" id="">
                     <label for="">Eliminar:</label>
-                    <select name="" class="form-control"  id="">
-                      <option value="">Seleccionar permiso</option>
-                      <option value="">ELIMINAR</option>
-                    </select>
-
+<br>
+                    <input type="checkbox" name="" id="">
                     <label for="">Mostrar:</label>
-                    <select name="" class="form-control"  id="">
-                      <option value="">Seleccionar permiso</option>
-                      <option value="">MOSTRAR</option>
-                    </select>
                     
                 </div>
                 <!-- Fin Cuerpo del modal Modal -->
@@ -159,27 +148,31 @@
                                 <!-- Fin Encabezado del modal -->
 
 
-                             <!-- Cuerpo del modal Modal -->
+                             
+                <!-- Cuerpo del modal Modal -->
                 <form action="" method="post">
                 <div class="modal-body">
+                
                     <label for="">Rol:</label>
-                    <input type="text" value="Admin" class="form-control" name="sector_comercial"   required value="" placeholder="" id="txtsectorcomercial" autocomplete = "off" onkeypress="return soloLetras(event);" minlength="4" maxlength="50" onkeyup="mayus(this);" >
+                    <input type="text" onkeyup="un_espacio(this);" class="form-control" name="nombre"  value="" required value="" placeholder="" id="text" autocomplete = "off" onkeypress="return soloLetras(event);" minlength="4" maxlength="50" onkeyup="mayus(this);" >
                     <br>
+                
                     <label for="">Pantalla:</label>
-                    <input type="text" value="Personas" class="form-control" name="" id="">
-                    <label for="">Insertar</label>
-                    <input  type="email" class="form-control"   value="Si" placeholder=""   autocomplete = "off" >
+                    <input type="text" onkeyup="un_espacio(this);" class="form-control" name="sector_comercial"  value="" required value="" placeholder="" id="txtsectorcomercial" autocomplete = "off" onkeypress="return soloLetras(event);" minlength="4" maxlength="50" onkeyup="mayus(this);" >
                     <br>
-                    <label for="">Editar</label>
-                    <input  type="email" class="form-control"   value="Si" placeholder=""   autocomplete = "off" >
-                    <br>
-                    <label for="">Eliminar</label>
-                    <input  type="email" class="form-control"   value="Si" placeholder=""   autocomplete = "off" >
-                    <br>
-                    <label for="">Mostrar</label>
-                    <input  type="email" class="form-control"   value="si" placeholder=""   autocomplete = "off" >
-                    <br>
-                  
+                    <label for="">Permisos:</label><br>
+                    <input type="checkbox" name="" id="">
+                    <label for="">Insertar:</label>
+                   <br>
+                    <input type="checkbox" name="" id="">
+                    <label for="">Editar:</label>
+                   <br>
+                    <input type="checkbox" name="" id="">
+                    <label for="">Eliminar:</label>
+<br>
+                    <input type="checkbox" name="" id="">
+                    <label for="">Mostrar:</label>
+                    
                 </div>
                 <!-- Fin Cuerpo del modal Modal -->
 
