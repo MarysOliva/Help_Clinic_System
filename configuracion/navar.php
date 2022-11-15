@@ -144,7 +144,7 @@
             
             <!-- Valida si tiene permiso para consultar la pantalla tablero -->
            <li class="nav-item menu-open">
-                  <a href="/prototipo/vistas/tablero/tablero.php" class="nav-link active">
+                  <a href="/Help_Clinic_System/vistas/tablero/tablero.php" class="nav-link active">
                     <i class="fa fa-home"></i>
                     <p>
                       Dashboard
@@ -154,7 +154,7 @@
            
 
                 <li class="nav-item">
-                  <a href="/prototipo/vistas/tablero/perfil.php" class="nav-link">
+                  <a href="/Help_Clinic_System/vistas/tablero/perfil.php" class="nav-link">
                     <i class="fa fa-user"></i>
                     <p>
                       Perfil
@@ -186,7 +186,7 @@
             <ul class="nav nav-treeview">
               <!-- Valida si tiene permiso para consultar la pantalla administradores -->
            <li class="nav-item">
-                          <a href="/prototipo/vistas/personas/usuarios.php" class="nav-link">
+                          <a href="/Help_Clinic_System/vistas/personas/usuarios.php" class="nav-link">
                             <p>Usuarios</p>
                           </a>
                         </li>

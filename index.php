@@ -43,8 +43,8 @@ body, html {
     <!-- Right-sided navbar links -->
     <div class="w3-right w3-hide-small">
       <a href="#about" class="w3-bar-item w3-button">Nosotros</a>
-      <a href="/prototipo/agendar.php" class="w3-bar-item w3-button"><i class="fas fa-calendar-alt"></i>Agendar cita</a>
-      <a href="/prototipo/login.php" class="w3-bar-item w3-button"><i class="fa fa-user"></i> Ingresar</a>
+      <a href="/Help_Clinic_System/agendar.php" class="w3-bar-item w3-button"><i class="fas fa-calendar-alt"></i>Agendar cita</a>
+      <a href="/Help_Clinic_System/login.php" class="w3-bar-item w3-button"><i class="fa fa-user"></i> Ingresar</a>
       <a href="#contact" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i>Contactos</a>
     </div>
     <!-- Hide right-floated links on small screens and replace them with a menu icon -->
@@ -59,8 +59,8 @@ body, html {
 <nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
   <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Cerrar</a>
   <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">Nosotros</a>
-  <a href="/prototipo/agendar.php" onclick="w3_close()" class="w3-bar-item w3-button">Agendar cita</a>
-  <a href="/prototipo/login.php" onclick="w3_close()" class="w3-bar-item w3-button">Ingresar</a>
+  <a href="/Help_Clinic_System/agendar.php" onclick="w3_close()" class="w3-bar-item w3-button">Agendar cita</a>
+  <a href="/Help_Clinic_System/login.php" onclick="w3_close()" class="w3-bar-item w3-button">Ingresar</a>
   <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">Contactos</a>
 </nav>
 

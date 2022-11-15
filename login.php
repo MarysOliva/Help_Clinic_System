@@ -53,7 +53,7 @@
             </div>
 
             <div class="d-grid">
-            <a href="/prototipo/vistas/tablero/tablero.php" class="btn btn-dark btn-block">Ingresar</a>
+            <a href="/Help_Clinic_System/vistas/tablero/tablero.php" class="btn btn-dark btn-block">Ingresar</a>
             </div>
             
 
