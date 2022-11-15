@@ -257,7 +257,7 @@
                           </a>
                         </li>
                         <li class="nav-item">
-                          <a href="/Help_Clinic_System/vistas/seguridad/roles.php" class="nav-link">
+                          <a href="/Help_Clinic_System/vistas/seguridad/objetos.php" class="nav-link">
                             <p>Objetos</p>
                           </a>
                         </li>
@@ -268,11 +268,7 @@
                           </a>
                         </li>
                          <!-- Valida si tiene permiso para consultar la pantalla del CRUD PORTAFOLIO -->
-        <li class="nav-item">
-                          <a href="../../vistas/catalogo/vista_portafolio.php" class="nav-link">
-                            <p>Objetos</p>
-                          </a>
-                        </li>
+        
               <!-- Valida si tiene permiso para consultar la pantalla del CRUD CATALOGOS -->
             <li class="nav-item">
                   <a href="/Help_Clinic_System/vistas/seguridad/parametros.php" class="nav-link">
