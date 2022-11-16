@@ -39,7 +39,7 @@ body, html {
 <!-- Navbar (sit on top) -->
 <div class="w3-top">
   <div class="w3-bar w3-white w3-card" id="myNavbar">
-    <a href="#home" class="w3-bar-item w3-button w3-wide">Inicio</a>
+    <a href="#home" class="w3-bar-item w3-button w3-wide"><i class="fa fa-home"></i>Inicio</a>
     <!-- Right-sided navbar links -->
     <div class="w3-right w3-hide-small">
       <a href="#about" class="w3-bar-item w3-button">Nosotros</a>
