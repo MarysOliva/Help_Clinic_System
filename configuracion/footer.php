@@ -26,7 +26,7 @@
      
     </div>
     <!-- Default to the left -->
-    <strong>SEACCO &copy; 2022 </strong> 
+    <strong>HELP_CLINIC_SYSTEM &copy; 2022 </strong> 
   </footer>
 </div>
 <!-- ./wrapper -->

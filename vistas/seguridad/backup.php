@@ -31,7 +31,7 @@
       <div class="modal-body ">
         <form action="" method="POST">
             <div class="mb-3 mt-3">
-                <center><img src="imagenes/logo.jpeg" alt="Girl in a jacket" width="270" height="150"><br></center>
+                <center><img src="../../imagenes/logo.jpeg" alt="Girl in a jacket" width="270" height="150"><br></center>
            </div>
 
             <div class="d-grid">
@@ -43,7 +43,7 @@
             <h4>punto de restauración restauración:</h4>
             <select class="form-control" name="" id="">
                 <option value="">Seleccione un punto de restauración</option>
-                <option value="">15/11/2022</option>
+                <option value="">15/11/2022 7:00am</option>
             </select><br>
             <a href="#" class="btn btn-danger btn-Danger">Restaurar</a>
             </div>
