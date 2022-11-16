@@ -59,11 +59,9 @@
 
             <div class="row">
                 <div class="col"> 
-                <a href="#">¿Olvido la contraseña?</a>
+                <a href="/Help_Clinic_System/vistas/seguridad/metodo.php">¿Olvido la contraseña?</a>
                 </div>
-                <div class="col">
-                  <a href="#">Registrar un usuario</a>
-                </div>
+               
             </div>
         </form>
       </div>

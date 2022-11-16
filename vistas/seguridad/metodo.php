@@ -9,7 +9,7 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
   <style> 
         body {
-                background-image: url('../../imagenes/fondo.jpg');
+                background-image: url('https://sites.google.com/site/multisaberes58/especialidades/medicina-general.jpg');
                 background-repeat: no-repeat;
                 background-attachment: fixed; 
                 background-size: 100% 100%;
@@ -32,15 +32,16 @@
         <div class="modal-body ">
             <form action="" method="POST">
                 <div class="mb-3 mt-3">
-                    <center><img src="../../imagenes/seacco.jpg" alt="Girl in a jacket" width="150" height="150"><br></center>
+                    <center><img src="../../imagenes/logo.jpeg" alt="Girl in a jacket" width="270" height="150"><br></center>
                     <div class="alert alert-success">
-                         <strong>¿Olvidó su contraseña?</strong> No hay problema. Simplemente ingrese su usuario y selecciona el método por el cual desea recuperar la contraseña.
+                         <strong>¿Olvidó su contraseña?</strong> No hay problema. Simplemente ingrese su usuario.
                     </div>
                     <label for="email" class="form-label">Usuario:</label>
                         <input type="text" style="background-color:rgb(240, 244, 245);" name="usuario" id="ingUsuario" class="form-control" placeholder="Ingrese el usuario" autocomplete = "off"  onkeypress="return soloLetras(event);" minlength="3" maxlength="20" onkeyup="mayus(this);" required onblur="quitarespacios(this);" onkeydown="sinespacio(this);"><br>
                         <div class="d-grid">
-                            <button type="submit" name="accion" value="correo" class="btn btn-primary btn-block">Vía Correo</button><br>
-                            <button type="submit" name="accion" value="pregunta" class="btn btn-primary btn-block">Vía Preguntas</button>
+                            <a href="/Help_Clinic_System/vistas/seguridad/token.php" class="btn btn-primary btn-block">Enviar Correo</a>
+   <br>
+                            
                         </div> 
                 </div>              
             </form>
